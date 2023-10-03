@@ -18,8 +18,6 @@ trigger:
 
 pool:
   vmImage: 'ubuntu-latest'
-  name: Default
-  demands: SpecialSoftware # exists check for SpecialSoftwa
 steps:
 - task: Maven@3
   inputs:
